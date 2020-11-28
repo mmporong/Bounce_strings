@@ -27,6 +27,10 @@ class App{
         window.requestAnimationFrame(this.animate.bind(this));
 
         this.ctx.clearRect(0, 0, this.stageWidth, this.stageHeight);
-        this
+        
     }
 }
+
+window.onload = () => {
+    new App();
+};
